@@ -1,0 +1,55 @@
+.nav-wrapper{
+    
+
+    position: fixed;
+    top:0;
+    background-color: #9949fe;
+    font-size:24px;
+    font-family:  gilroyextrabold;
+
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    color:white;
+    font-weight:100;
+    float:left;
+    margin-left:5%;
+}
+
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    float:right;
+    margin-right:10%;
+    width:25%;
+}
+
+.icon{
+    transition:all ease 0.05s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.icon:active{
+    transform: scale(0.9);
+}
+
+img{
+    height:2em;
+    color:white;
+
+    filter:invert(100%);
+}
+

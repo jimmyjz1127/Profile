@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "gilroyextrabold";
+  src: local("gilroyextrabold"), url("./Assets/Fonts/Gilroy-ExtraBold.otf") format("truetype");
+}
